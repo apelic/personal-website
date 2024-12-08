@@ -1,5 +1,5 @@
  
- @media screen and (min-width: 320px) and (max-width: 425px) {
+ @media screen and (max-width: 425px) {
  }
 
  body{
@@ -14,7 +14,6 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    flex-flow: ;
     justify-content: space-evenly;
     background-color: lemonchiffon;
     grid-column: 1/3;
@@ -73,12 +72,12 @@ aside{
     margin: 20px;
     grid-column: 2/3;
     grid-row: 2/4;
+    text-align: center;
 }
 img{
     box-sizing: border-box;
     height: auto;
-    max-width: 100%;
-    justify-content: center;
+    max-height: 100%;
     border: 5px solid darkslategray;
 }
 footer{ 
@@ -95,6 +94,70 @@ footer{
 .body-about{
     display: block;
 }
+
+.about1{
+    text-align: center;
+}
+.about2, .about3, .about4{
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    color: darkslategray;
+    border: 5px solid;
+    margin: 10px;
+    padding: 8px;
+}
 .body-port{
     display: block;
 }
+.port1{
+    text-align: center;
+}
+.port2, .port3, .port4{
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    color: darkslategray;
+    border: 5px solid;
+    margin: 10px;
+    padding: 8px;
+}
+.body-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contact{
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    color: darkslategray;
+    border: 5px solid;
+    margin: 10px;
+    padding: 8px;
+    text-align: left;
+    word-spacing: 10px;
+    height: 100%;
+    width: 50%;
+    
+
+}
+.form{
+    
+}
+.contact-name, .contact-email{
+    margin: 5px;
+}
+.contact-message{
+    margin: 5px;
+    
+}
+.message{
+    height: 80px;
+    width: 95%;
+}
+.name1, .email{
+    width: 50%;
+}
+.contact-submit{
+    margin: 5px;
+}
+
+  
