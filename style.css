@@ -1,5 +1,121 @@
  
- @media screen and (max-width: 425px) {
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 20% 30% 30% 20%;
+        align-self: center;
+    
+    }
+    header {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: lemonchiffon;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border: 5px solid darkslategray;
+        margin: 10px;
+        padding: 8px;
+        width: 90%;
+        height: 95%;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+    }
+    .home1{
+        box-sizing: border-box;
+        background-color: lemonchiffon;
+        color: darkslategrey;
+        border: 5px solid; 
+        margin: 10px;
+        padding: 8px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        width: 90%;
+        height: 95%;
+        justify-self: right;
+        align-items: center;
+    
+        
+    }
+    .home2{
+        box-sizing: border-box;
+        background-color: lemonchiffon;
+        color: darkslategrey;
+        border: 5px solid;
+        margin: 10px;
+        padding: 8px; 
+        text-align: center;
+        justify-items: center;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 90%;
+        height: 95%;
+        justify-self: right;
+        align-items: center;
+        align-self: center;
+    
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    footer{ 
+        box-sizing: border-box;
+        background-color: lemonchiffon;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        color: darkslategray;
+        text-align: center;
+        border: 5px solid;
+        margin: 10px;
+        padding: 8px;
+        width: 90%;
+        height: 95%;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+    }
+    aside{
+        margin: 5px;
+        grid-column: 2/3;
+        grid-row: 2/4;
+        text-align: center;;
+        
+    }
+    img{
+        box-sizing: border-box;
+        height: auto;
+        display: flex;
+        max-width: 100%;
+        border: 5px solid darkslategray;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header-contact{
+        height: auto;
+    }
+    .contact{
+        box-sizing: border-box;
+        background-color: lemonchiffon;
+        color: darkslategray;
+        border: 5px solid;
+        margin: 10px;
+        padding: 8px;
+        text-align: left;
+        word-spacing: 10px;
+        height: 100%;
+        width: 95%;
+    
+    }
+    .name{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkslategray;
+        text-size-adjust: auto;
+    }
  }
 
  body{
@@ -14,16 +130,19 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: lemonchiffon;
     grid-column: 1/3;
     grid-row: 1/2;
     border: 5px solid darkslategray;
     margin: 10px;
     padding: 8px;
-
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
 }
-
 .navbar{
     list-style: none;
     
@@ -50,6 +169,10 @@ body{
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: center;
+    width: 70%;
+    justify-self: right;
+    align-items: center;
+
     
 }
 .homep1{
@@ -63,8 +186,13 @@ body{
     margin: 10px;
     padding: 8px; 
     text-align: center;
+    justify-items: center;
     grid-column: 1/2;
     grid-row: 3/4;
+    width: 70%;
+    justify-self: right;
+    align-items: center;
+    align-self: center;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -73,12 +201,14 @@ aside{
     grid-column: 2/3;
     grid-row: 2/4;
     text-align: center;
+    
 }
 img{
     box-sizing: border-box;
     height: auto;
     max-height: 100%;
     border: 5px solid darkslategray;
+    
 }
 footer{ 
     box-sizing: border-box;
@@ -90,6 +220,10 @@ footer{
     border: 5px solid;
     margin: 10px;
     padding: 8px;
+    width: 70%;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
 }
 .body-about{
     display: block;
