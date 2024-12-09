@@ -293,5 +293,24 @@ footer{
 .contact-submit{
     margin: 5px;
 }
-
-  
+.body-success{
+    display: block;
+    
+}  
+.success-head{
+    display: block;
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    color: darkslategray;
+    border: 5px solid;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    height: auto;
+    width: 90%;
+}
